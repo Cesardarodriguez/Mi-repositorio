@@ -1,0 +1,123 @@
+.header_logo{
+ 
+  display: flex;
+  background-color: aqua;
+  width: auto;
+}
+.logo{
+  display: flex;
+  width: 150px;
+  height: auto;
+}
+.titulos{
+  font-family: Arial, sans-serif;
+}
+.boton-menu{
+    padding: 5px;
+    border: 2px solid;
+    justify-content: center;
+  }
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.image_inicial {
+  width: 50%;
+  height: auto;
+}
+map {
+  width: 50%;
+  height: auto;
+}
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254,45,45);
+    
+}
+
+nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    justify-content: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: turquoise;
+    color: white;
+    transform: scale(1.1);
+  }
+
+div ol li{    
+    display: inline-block;
+    padding: 30px;
+}
+.whatsapp{
+    position: fixed; 
+    bottom: 0%;
+    right: 0%;
+}
+.presentacion{
+  background-color: blueviolet;
+}
+.menu_quienes_somos{
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  
+}
+.menu_quienes_somos img{
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 25%;
+}
+.Clientes{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 20px;
+  gap: 10px;
+  background-color: blueviolet;
+}
+.menu_clientes{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.kiko{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 400px;
+  padding: 20px;
+  gap: 10px;
+}
+.chavo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sabores{
+  background-color: aqua;
+  width: 50%;
+  height: 50%;
+}
+@media (min-width: 600px){
+      body{
+        background-color: slateblue;
+      }  
+    }
+@media (max-width: 600px){
+  body{
+    background-color: sienna;
+  }
+}    
